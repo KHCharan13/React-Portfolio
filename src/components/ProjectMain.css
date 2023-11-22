@@ -1,0 +1,81 @@
+.mask {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.intro-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+.mask::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.main .content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+.main .content h1 {
+  font-size: 4rem;
+  padding: 0.6rem 0 1.5rem;
+}
+
+.main .content p {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.buttonc {
+  margin: 5rem;
+}
+.projects {
+  background: #fff;
+  margin-top: 4rem;
+}
+
+.projects {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 40px;
+  background: #fff;
+
+  padding: 3rem;
+  place-items: center;
+  border-radius: 4rem;
+}
+.tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.441) 1rem;
+}
+.images1 {
+  width: 50vw;
+  border-radius: 3rem;
+}
+.images1:hover {
+  scale: 105%;
+  transition: 0.4s;
+}
