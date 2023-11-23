@@ -65,17 +65,28 @@
   border-radius: 4rem;
 }
 .tiles {
+  border-top: #000 solid 0.2rem;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.441) 1rem;
 }
+
 .images1 {
   width: 50vw;
   border-radius: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .images1:hover {
   scale: 105%;
   transition: 0.4s;
+}
+
+.links {
+  color: rgb(119, 115, 239);
+  font-size: smaller;
+}
+.links:hover {
+  text-decoration: underline;
 }

@@ -5,6 +5,7 @@ import WeeBlog from "../assets/Weeblog.PNG";
 import Mobileapp from "../assets/appimg.png";
 import Ddms from "../assets/DDMS.png";
 import introimg from "../assets/21.jpg";
+import { Link } from "react-router-dom";
 const ProjectMain = () => {
   return (
     <div className="main">
@@ -28,6 +29,9 @@ const ProjectMain = () => {
           </h5>
           <br />
           <h5>Technologies Used :HTML, CSS MongoDB ,Node JS</h5>
+          <Link to="https://github.com/KHCharan13/dbms_proj">
+            <h3 className="links">Code</h3>
+          </Link>
         </div>
         <div className="tiles">
           <h3>WeeBlog</h3>
@@ -42,6 +46,12 @@ const ProjectMain = () => {
           </h5>
           <br />
           <h5>Technologies Used :React JS , Tailwind , Google FireBase</h5>
+          <Link to="https://github.com/KHCharan13/fullstack_proj_react">
+            <h3 className="links">Code</h3>
+          </Link>
+          <Link to="http://weeblog-five.vercel.app/">
+            <h3 className="links">Hosted Link</h3>
+          </Link>
         </div>
         <div className="tiles">
           <h3>DDBMS</h3>
@@ -56,6 +66,12 @@ const ProjectMain = () => {
           </h5>
           <br />
           <h5>Technologies Used :Next JS , Tailwind , Google FireBase</h5>
+          <Link to="https://github.com/KHCharan13/Department-Data-Mgmt-System">
+            <h3 className="links">Code</h3>
+          </Link>
+          <Link to="http://department-data-mgmt-system.vercel.app/">
+            <h3 className="links">Hosted Link</h3>
+          </Link>
         </div>
         <div className="tiles">
           <h3>Personalised Mobile Library App</h3>
@@ -70,6 +86,9 @@ const ProjectMain = () => {
           </h5>
           <br />
           <h5>Technologies Used :Java , FireBase</h5>
+          <Link to="https://github.com/KHCharan13/Android_Library_App">
+            <h3 className="links">Code</h3>
+          </Link>
         </div>
       </div>
     </div>

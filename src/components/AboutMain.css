@@ -69,6 +69,9 @@
   height: 64px;
   width: 64px;
 }
+.images:hover {
+  scale: 105%;
+}
 .a {
   display: flex;
   flex-direction: column;
